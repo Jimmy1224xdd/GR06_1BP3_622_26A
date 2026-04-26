@@ -11,7 +11,13 @@ public class CalculatorExecute {
         int subtraction = c.subtraction(7, 1);
         System.out.println("c.subtraction(7,1) = " + subtraction);
 
+        int multiplication = c.multiplication(3, 4);
+        System.out.println("c.multiplication(3,4) = " + multiplication);
 
-        System.out.println("== End Calculator Execute ==");
+        int division = c.division(12, 4);
+        System.out.println("c.division(12,4) = " + division);
+
+
+        System.out.println("== End Calculator Execute GRUPO 06 :) ==");
     }
 }
